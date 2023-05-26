@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Inter:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: hsla(0, 3%, 83%, 0.735);
+}
+
+.layout {
+  background-color: hsl(0, 0%, 100%);
+  margin: 110px auto;
+  width: 600px;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 0px 0px 1px gray;
+}
+.result {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  padding: 30px 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.summary {
+  width: 50%;
+  padding: 30px 30px;
+}
+.performance {
+  margin-top: 20px;
+}
+.scores {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+  margin: 24px auto;
+  padding: 22px 38px;
+
+  text-align: center;
+  border-radius: 90px;
+  width: 60%;
+}
+.scores .total {
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 28px;
+
+  margin: 18px 0;
+}
+h3 {
+  font-size: 20px;
+}
+.summary h3 {
+  color: black;
+}
+
+button {
+  margin-top: 25px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px 80px;
+  color: white;
+  background-color: rgb(16, 29, 72);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px 0;
+  border-radius: 10px;
+}
+li p {
+  display: inline;
+}
+li {
+  margin: 16px 0;
+}
+
+.marks {
+  float: right;
+}
+.marks span {
+  color: black;
+  font-weight: bold;
+}
+
+.reaction {
+  background-color: rgba(245, 183, 183, 0.2);
+  box-shadow: 0px 0px 1px;
+}
+.memory {
+  background-color: rgba(252, 249, 179, 0.2);
+  box-shadow: 0px 0px 1px;
+}
+.verbal {
+  background-color: rgba(201, 251, 195, 0.2);
+  box-shadow: 0px 0px 1px;
+}
+.visual {
+  background-color: rgba(155, 158, 242, 0.2);
+  box-shadow: 0px 0px 1px;
+}
+
+.rec {
+  color: #f55;
+}
+.mem {
+  color: #ffb21e;
+}
+.ver {
+  color: #00bb8f;
+}
+.vis {
+  color: #1125d6;
+}
